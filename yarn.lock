@@ -2236,6 +2236,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ngrx/store@npm:^17.2.0":
+  version: 17.2.0
+  resolution: "@ngrx/store@npm:17.2.0"
+  dependencies:
+    tslib: "npm:^2.0.0"
+  peerDependencies:
+    "@angular/core": ^17.0.0
+    rxjs: ^6.5.3 || ^7.5.0
+  checksum: 10/3eff90e71679b12be8c57a17816f624ad3d06f845815346566ba47f642ec7ca30797c45b2732b086e461765f6ff16975e757bcf6a6f0af397baef25e8ab08079
+  languageName: node
+  linkType: hard
+
 "@ngtools/webpack@npm:17.3.4":
   version: 17.3.4
   resolution: "@ngtools/webpack@npm:17.3.4"
@@ -6409,6 +6421,7 @@ __metadata:
     "@angular/platform-server": "npm:^17.3.0"
     "@angular/router": "npm:^17.3.0"
     "@angular/ssr": "npm:^17.3.4"
+    "@ngrx/store": "npm:^17.2.0"
     "@types/express": "npm:^4.17.17"
     "@types/jasmine": "npm:~5.1.0"
     "@types/node": "npm:^18.18.0"
@@ -8363,7 +8376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.2, tslib@npm:^2.1.0, tslib@npm:^2.3.0":
+"tslib@npm:2.6.2, tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.3.0":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 10/bd26c22d36736513980091a1e356378e8b662ded04204453d353a7f34a4c21ed0afc59b5f90719d4ba756e581a162ecbf93118dc9c6be5acf70aa309188166ca
