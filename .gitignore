@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# yarn ignore --- kopiert von: https://github.com/yarnpkg/berry/issues/454
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
