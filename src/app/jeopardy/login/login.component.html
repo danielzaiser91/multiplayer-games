@@ -1,1 +1,6 @@
 <p>login works!</p>
+
+<input #text type="text">
+<button (click)="onTestClick(text.value)">test</button>
+
+<p>{{ query$ | async | json }}</p>
