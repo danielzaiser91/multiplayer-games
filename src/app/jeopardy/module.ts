@@ -5,16 +5,17 @@ import { JeopardyRoutingModule } from './routing.module';
 import { StoreModule } from '@ngrx/store';
 import { jeopardyFeature } from './store$/feature';
 import { StateService } from './services/state.service';
+import { SocketService } from './services/socket.service';
 
 @NgModule({
-  declarations: [
-    LoginComponent
-  ],
-  providers: [StateService],
+  declarations: [LoginComponent],
+  providers: [StateService, SocketService],
   imports: [
     CommonModule,
     JeopardyRoutingModule,
-    StoreModule.forFeature(jeopardyFeature)
-  ]
+    StoreModule.forFeature(jeopardyFeature),
+  ],
 })
-export class JeopardyModule { }
+export class JeopardyModule {
+  constructor(private socketService: SocketService) {}
+}

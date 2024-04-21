@@ -4,3 +4,7 @@
 <button (click)="onTestClick(text.value)">test</button>
 
 <p>{{ query$ | async | json }}</p>
+
+<button (click)="onClickCreateQuiz()">Quiz starten</button>
+<input #join type="text">
+<button (click)="onClickJoinQuiz(join.value)">Quiz beitreten</button>
